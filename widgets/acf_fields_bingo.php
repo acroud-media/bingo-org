@@ -1,24 +1,15 @@
 <?php 
 
-
-if(function_exists( 'pll_languages_list' ) ) {
-
-$lang_list = pll_languages_list();
-
-foreach ($lang_list as $lang) {
-    
-if($lang == 'en'){$lang = '';}
-
 if( function_exists('acf_add_local_field_group') ):
 
 acf_add_local_field_group(array(
-    'key' => 'group_5bc5d47814af5'.$lang,
-    'title' => 'Bingo Theme Options-'.$lang ,
+    'key' => 'group_5bc5d47814af5',
+    'title' => 'Bingo Theme Options-' ,
     'fields' => array(
         array(
-            'key' => 'field_5bc5d49663144'.$lang,
-            'label' => 'scripts'.$lang,
-            'name' => 'scripts'.$lang,
+            'key' => 'field_5bc5d49663144',
+            'label' => 'scripts',
+            'name' => 'scripts',
             'type' => 'textarea',
             'instructions' => 'Use With Caution',
             'required' => 0,
@@ -34,9 +25,9 @@ acf_add_local_field_group(array(
             'rows' => '',
             'new_lines' => '',
         ),array(
-            'key' => 'field_5bc7819040802'.$lang,
-            'label' => '404 error page links'.$lang,
-            'name' => '404_error_page_links'.$lang,
+            'key' => 'field_5bc7819040802',
+            'label' => '404 error page links',
+            'name' => '404_error_page_links',
             'type' => 'repeater',
             'instructions' => '',
             'required' => 0,
@@ -53,9 +44,9 @@ acf_add_local_field_group(array(
             'button_label' => '',
             'sub_fields' => array(
                 array(
-                    'key' => 'field_5bc781ae40803'.$lang,
-                    'label' => 'Title of The Page'.$lang,
-                    'name' => 'title_of_the_page'.$lang,
+                    'key' => 'field_5bc781ae40803',
+                    'label' => 'Title of The Page',
+                    'name' => 'title_of_the_page',
                     'type' => 'text',
                     'instructions' => '',
                     'required' => 0,
@@ -72,9 +63,9 @@ acf_add_local_field_group(array(
                     'maxlength' => '',
                 ),
                 array(
-                    'key' => 'field_5bc781cf40804'.$lang,
-                    'label' => 'Link to The Page'.$lang,
-                    'name' => 'link_to_the_page'.$lang,
+                    'key' => 'field_5bc781cf40804',
+                    'label' => 'Link to The Page',
+                    'name' => 'link_to_the_page',
                     'type' => 'text',
                     'instructions' => '',
                     'required' => 0,
@@ -121,13 +112,13 @@ endif;
 if( function_exists('acf_add_local_field_group') ):
 
 acf_add_local_field_group(array(
-    'key' => 'group_5baf4b3b1b70d'.$lang,
-    'title' => 'Bingo Theme Options: Footer'.$lang,
+    'key' => 'group_5baf4b3b1b70d',
+    'title' => 'Bingo Theme Options: Footer',
     'fields' => array(
         array(
-            'key' => 'field_5baf4b4f5d052'.$lang,
+            'key' => 'field_5baf4b4f5d052',
             'label' => 'Players Favourites 1',
-            'name' => 'players_favourites_1'.$lang,
+            'name' => 'players_favourites_1',
             'type' => 'post_object',
             'instructions' => '',
             'required' => 0,
@@ -148,9 +139,9 @@ acf_add_local_field_group(array(
             'ui' => 1,
         ),
         array(
-            'key' => 'field_5baf4bb48c26d'.$lang,
+            'key' => 'field_5baf4bb48c26d',
             'label' => 'Players Favourites 2',
-            'name' => 'players_favourites_2'.$lang,
+            'name' => 'players_favourites_2',
             'type' => 'post_object',
             'instructions' => '',
             'required' => 0,
@@ -171,9 +162,9 @@ acf_add_local_field_group(array(
             'ui' => 1,
         ),
         array(
-            'key' => 'field_5baf4bb78c26e'.$lang,
+            'key' => 'field_5baf4bb78c26e',
             'label' => 'Players Favourites 3',
-            'name' => 'players_favourites_3'.$lang,
+            'name' => 'players_favourites_3',
             'type' => 'post_object',
             'instructions' => '',
             'required' => 0,
@@ -194,9 +185,9 @@ acf_add_local_field_group(array(
             'ui' => 1,
         ),
         array(
-            'key' => 'field_5baf4bb88c26f'.$lang,
+            'key' => 'field_5baf4bb88c26f',
             'label' => 'Players Favourites 4',
-            'name' => 'players_favourites_4'.$lang,
+            'name' => 'players_favourites_4',
             'type' => 'post_object',
             'instructions' => '',
             'required' => 0,
@@ -217,9 +208,9 @@ acf_add_local_field_group(array(
             'ui' => 1,
         ),
         array(
-            'key' => 'field_5baf4bba8c270'.$lang,
+            'key' => 'field_5baf4bba8c270',
             'label' => 'Players Favourites 5',
-            'name' => 'players_favourites_5'.$lang,
+            'name' => 'players_favourites_5',
             'type' => 'post_object',
             'instructions' => '',
             'required' => 0,

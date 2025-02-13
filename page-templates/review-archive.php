@@ -63,7 +63,7 @@ get_header(); ?>
 
 	endif; ?>
 
-	<!--<div class="archive-content <?php echo pll_current_language('slug') ?>">--><?php the_content() ?> <!--</div>	--> 
+	<!--<div class="archive-content">--><?php the_content() ?> <!--</div>	--> 
 
 
 	<div class="right-sidebar">

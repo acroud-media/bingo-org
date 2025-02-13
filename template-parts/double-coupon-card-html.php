@@ -38,7 +38,7 @@ $review_id = get_sub_field('casino_review', "option"); ?>
                         
 		<div class="panel-footer">
 			
-			<a target="_blank" aria-label="<?php echo get_sub_field('button_title', "option") ?: get_field('button_title', $review_id); ?>" class="btn btn-lg btn-block top-list-play" href="<?php echo get_sub_field('link', "option") ? get_permalink(get_sub_field('link', "option"))  : get_permalink(get_field('link', $review_id)) ; ?>"><?php echo get_sub_field('button_title', "option") ?: (get_field('button_title', $review_id) ?: pll__('Play Now')) ?></a>
+			<a target="_blank" aria-label="<?php echo get_sub_field('button_title', "option") ?: get_field('button_title', $review_id); ?>" class="btn btn-lg btn-block top-list-play" href="<?php echo get_sub_field('link', "option") ? get_permalink(get_sub_field('link', "option"))  : get_permalink(get_field('link', $review_id)) ; ?>"><?php echo get_sub_field('button_title', "option") ?: (get_field('button_title', $review_id) ?: __('Play Now')) ?></a>
 			                        
 		</div>
                             

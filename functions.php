@@ -59,36 +59,6 @@ include( get_template_directory().'/inc/review-functions.php' );
 include( get_template_directory().'/inc/geotargeting.php' );
 
 
-if(function_exists( 'pll_register_string' ) ) {
-   pll_register_string( '404', 'Error 404', 'bingo');
-   pll_register_string( 'moved', 'The page you requested does not exist or has moved.', 'bingo');
-   pll_register_string( 'helpfulpages404', 'Here are some helpful links instead:', 'bingo');
-   pll_register_string( 'read_review', 'Read Review', 'bingo');
-   pll_register_string( 'mobile_tablet', 'You can play on mobiles or on tablets', 'bingo');
-   pll_register_string( 'play_now', 'Play Now', 'bingo');
-
-//search
-    pll_register_string( 'search', 'Search', 'bingo');
-    pll_register_string( 'search_for', 'Search for:', 'bingo');
-//footer
-    pll_register_string( 'responsible_gambling', 'Responsible Gambling', 'bingo');
-    pll_register_string( 'privacy', 'We do not share any presonally identifiable information. Please see Our Privacy Policy for more.', 'bingo');
-    pll_register_string( 'copyright', 'All rights reserved 2017 Bingo.org', 'bingo');
-    pll_register_string( 'player_favourites', 'Players Favourites', 'bingo');
-//review page
-    pll_register_string( 'pros_and_cons', 'Pros and cons', 'bingo');
-    pll_register_string( 'specifications', 'Specifications', 'bingo');
-    pll_register_string( 'payment_options', 'Payment Options', 'bingo');   
-
-}
-
-if(!function_exists( 'pll_e' ) ) {
-function pll_e($string){
-  echo $string;
-}
-}
-
-
 
 function mce_formats( $init ) {
 
@@ -1072,48 +1042,48 @@ function paged_canonical($canonical) {
 /*#######   Adding The x-default Value On Other Pages. Set to the english translation url if exist. 
 #########   Otherwise, set X-default to the first available translation   #####*/
 
-add_filter( 'pll_rel_hreflang_attributes', function( $hreflangs ) {
+// add_filter( 'pll_rel_hreflang_attributes', function( $hreflangs ) {
 
-  // Remove the 'en' element from the array and store its value in a variable
-  $value = $hreflangs['en'];
+//   // Remove the 'en' element from the array and store its value in a variable
+//   $value = $hreflangs['en'];
 
-  unset($hreflangs['en']);
+//   unset($hreflangs['en']);
 
-  // Add the 'en' element to the beginning of the array with the same value
-  $hreflangs = array('en' => $value) + $hreflangs;
+//   // Add the 'en' element to the beginning of the array with the same value
+//   $hreflangs = array('en' => $value) + $hreflangs;
 
-  //set x-default 
-   foreach ( $hreflangs as $lang => $url ) {
+//   //set x-default 
+//    foreach ( $hreflangs as $lang => $url ) {
 
-      if(!empty($url)) {
-            $hreflangs['x-default'] = $url;
-            break;
-      }
+//       if(!empty($url)) {
+//             $hreflangs['x-default'] = $url;
+//             break;
+//       }
 
-   }
+//    }
 
-    return $hreflangs;
+//     return $hreflangs;
 
-} );
+// } );
 
 
 
 //Remove hreflang from anchor links in the  switcher
-add_filter( 'pll_the_languages', 'remove_menu_hreflang', 10, 2 ); 
-function remove_menu_hreflang( $output, $args ) {
+// add_filter( 'pll_the_languages', 'remove_menu_hreflang', 10, 2 ); 
+// function remove_menu_hreflang( $output, $args ) {
 
-    if ( $args['dropdown'] ) {
-        return $output;
-    }
+//     if ( $args['dropdown'] ) {
+//         return $output;
+//     }
 
-    // Create a pattern to match the lang and hreflang attributes
-    $pattern = '/\s*(lang|hreflang)="[^"]*"/';
+//     // Create a pattern to match the lang and hreflang attributes
+//     $pattern = '/\s*(lang|hreflang)="[^"]*"/';
     
-    $output = preg_replace($pattern, '', $output);
+//     $output = preg_replace($pattern, '', $output);
 
-    return $output;
+//     return $output;
 
-}
+// }
 
 
 
@@ -1247,21 +1217,21 @@ function current_year() {
  * @param string $slug ACF Option page slug.
  * @return string $lang current language selected in admin dashboard. 
 ---------------------------------------------------------------------------------------------------------------------------- */
-function is_acf_options_page($slug,$lang) {
-	
+function is_acf_options_page($slug) {
+  
 	 if (!is_admin()) return false;
 	
 	global $pagenow;
 	
 	if( $pagenow !== 'admin.php' ||  !function_exists('acf_get_options_page')  ) return false;
 	
-    // Get the options page settings
-    $options_page = acf_get_options_page($slug);
+    // // Get the options page settings
+    // $options_page = acf_get_options_page($slug);
 
-    // Check if the options page exists and if the current page is the correct options page
-    if ($options_page && isset($_GET['page']) && $_GET['page'] === $slug && pll_current_language('slug') === $lang) {
-        return true;
-    }
+    // // Check if the options page exists and if the current page is the correct options page
+    // if ($options_page && isset($_GET['page']) && $_GET['page'] === $slug) {
+    //     return true;
+    // }
 
     return false;
 }
@@ -1269,25 +1239,25 @@ function is_acf_options_page($slug,$lang) {
 
 /* Redirect "en", "br", "it" and "es" version of the acf list option pages to the "show all languages" version
 ------------------------------------------------------------------------------------------------------- */
-add_action('admin_init', function() {
+// add_action('admin_init', function() {
 
-    $list_options_pages = array('acf-options-horizontal-top-lists','acf-options-vertical-top-lists','acf-options-double-coupons-lists');
+//     $list_options_pages = array('acf-options-horizontal-top-lists','acf-options-vertical-top-lists','acf-options-double-coupons-lists');
 
-    foreach ($list_options_pages as $option_page) {  
+//     foreach ($list_options_pages as $option_page) {  
 
-        if (is_acf_options_page($option_page,'en') ||is_acf_options_page($option_page,'br') || is_acf_options_page($option_page,'it') || is_acf_options_page($option_page,'es')) { 
-    		$toplist_url = add_query_arg(array(
-                    'page' => $option_page,
-                    'lang' => 'all'
-                ), admin_url('admin.php'));
+//         if (is_acf_options_page($option_page,'en') ||is_acf_options_page($option_page,'br') || is_acf_options_page($option_page,'it') || is_acf_options_page($option_page,'es')) { 
+//     		$toplist_url = add_query_arg(array(
+//                     'page' => $option_page,
+//                     'lang' => 'all'
+//                 ), admin_url('admin.php'));
 
-                // Perform the redirect
-                wp_redirect($toplist_url);
-                exit;
-        }
+//                 // Perform the redirect
+//                 wp_redirect($toplist_url);
+//                 exit;
+//         }
 
-    }
-});	
+//     }
+// });	
 
 /* Remove from the url front /news/ in vegasgero_games post type
 ------------------------------------------------------------------------------------------------------- */

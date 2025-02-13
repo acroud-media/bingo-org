@@ -38,7 +38,7 @@ $review_id = $row['casino_review'];
 
 			<div class="panel-footer">
 
-				<a target="_blank" aria-label="<?php echo !empty($row['button_title']) ? $row['button_title'] : get_field('button_title', $review_id); ?>" class="btn btn-lg btn-block top-list-play" href="<?php echo !empty($row['link']) ? get_permalink($row['link'])  : get_permalink(get_field('link', $review_id)) ; ?>"><?php echo !empty($row['button_title']) ? $row['button_title'] : (get_field('button_title', $review_id) ?: pll__('Play Now')) ?></a>
+				<a target="_blank" aria-label="<?php echo !empty($row['button_title']) ? $row['button_title'] : get_field('button_title', $review_id); ?>" class="btn btn-lg btn-block top-list-play" href="<?php echo !empty($row['link']) ? get_permalink($row['link'])  : get_permalink(get_field('link', $review_id)) ; ?>"><?php echo !empty($row['button_title']) ? $row['button_title'] : (get_field('button_title', $review_id) ?: __('Play Now')) ?></a>
 
 			</div>
 

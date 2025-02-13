@@ -45,7 +45,7 @@ $review_id = $row['casino_review']; ?>
 
 					<a href="<?php echo get_permalink($review_id) ?>">
 
-						<?php pll_e('Read Review'); ?>
+						<?php echo __('Read Review'); ?>
 
 					</a>
 
@@ -101,7 +101,7 @@ $review_id = $row['casino_review']; ?>
 
 				<?php if( ( !empty($row['link'])  ) || get_field('link', $review_id)) { ?>
 
-					<a target="_blank" class="play-button" href="<?php echo !empty($row['link']) ? get_permalink($row['link'])  : get_permalink(get_field('link', $review_id)) ; ?>"><?php echo !empty($row['button_title']) ? $row['button_title'] : (get_field('button_title', $review_id) ?: pll__('Play Now')) ?>
+					<a target="_blank" class="play-button" href="<?php echo !empty($row['link']) ? get_permalink($row['link'])  : get_permalink(get_field('link', $review_id)) ; ?>"><?php echo !empty($row['button_title']) ? $row['button_title'] : (get_field('button_title', $review_id) ?: __('Play Now')) ?>
 					</a>
 
 				<?php }			

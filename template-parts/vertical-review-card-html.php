@@ -42,7 +42,7 @@ $review_id = get_sub_field('casino_review', "option");
 
 				<a href="<?php echo get_permalink($review_id) ?>">
 
-					<?php pll_e('Read Review'); ?>
+					<?php __('Read Review'); ?>
 
 				</a>
 
@@ -90,7 +90,7 @@ $review_id = get_sub_field('casino_review', "option");
 
 			<?php if(get_sub_field('link', "option") || get_field('link', $review_id)) { ?>
 
-			<a target="_blank" class="play-button" href="<?php echo get_sub_field('link', "option") ? get_permalink(get_sub_field('link', "option"))  : get_permalink(get_field('link', $review_id)) ; ?>"><?php echo get_sub_field('button_title', "option") ?: (get_field('button_title', $review_id) ?: pll__('Play Now')) ?>
+			<a target="_blank" class="play-button" href="<?php echo get_sub_field('link', "option") ? get_permalink(get_sub_field('link', "option"))  : get_permalink(get_field('link', $review_id)) ; ?>"><?php echo get_sub_field('button_title', "option") ?: (get_field('button_title', $review_id) ?: __('Play Now')) ?>
 			</a>
 
 			<?php } 

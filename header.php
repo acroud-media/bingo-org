@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html>
 <head>
     <meta http-equiv="content-type" content="<?php bloginfo( 'html_type' ); ?>; charset=<?php bloginfo( 'charset' ); ?>" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +7,6 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
     <?php 
-if(function_exists( 'pll_current_language' ) ) {
-          $scripts_lang = pll_current_language( 'slug' ); if($scripts_lang == 'en'){$scripts_lang = '';}  
-}else{
-  $scripts_lang = '';
-}
-
-$manual_added_scripts = get_field('scripts'.$scripts_lang, 'options');
-
-echo $manual_added_scripts;
 
     wp_head(); ?>
     
@@ -54,11 +45,6 @@ echo $manual_added_scripts;
         'fallback_cb'     => 'wp_page_menu',
         'walker' => new bingo_wp_navwalker()
         ));}else { echo '<span class="add-menu"></span>';} ?>
-        <?php if (function_exists('pll_the_languages')) { ?>
-        <ul class="language-switcher mb-0 list-inline pull-right list-inline text-nowrap">
-            <?php pll_the_languages(array('show_flags'=>1,'show_names'=>0/*,'dropdown' => 1*/)); ?>
-        </ul>
-        <?php } ?>
         </div>
 
 

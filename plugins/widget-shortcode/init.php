@@ -74,9 +74,9 @@ class Widget_Shortcode {
 	 *
 	 * @since 0.2.4
 	 */
-	function i18n() {
-		load_plugin_textdomain( 'widget-shortcode', false, '/languages' );
-	}
+	// function i18n() {
+	// 	load_plugin_textdomain( 'widget-shortcode', false, '/languages' );
+	// }
 
 	/**
 	 * Returns an array of all widgets as the key, their position as the value

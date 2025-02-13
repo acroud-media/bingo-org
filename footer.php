@@ -6,19 +6,10 @@
 				<div class="players-favorites-title font-weight-bold d-inline col-lg-2 col-md-12 col-12 text-center text-lg-left align-self-center">
 					<?php _e('Players Favourites', 'bingo'); ?>
 				</div>
-
-				<?php 
-
-				if(function_exists( 'pll_current_language' ) ) {
-					$player_lang = pll_current_language( 'slug' ); if($player_lang == 'en'){$player_lang = '';}  
-				}else{
-					$player_lang = '';
-				}
-
-				?>        
+     
 				<div class="players-favorite d-inline col-md-2 col-sm-12 col-12 text-center text-md-left">
 					<?php
-					$post_object = get_field('players_favourites_1'.$player_lang, 'options');
+					$post_object = get_field('players_favourites_1', 'options');
 					if( $post_object ): 
 					$post = $post_object;
 					setup_postdata( $post ); 
@@ -40,7 +31,7 @@
 				</div>
 				<div class="players-favorite d-inline col-md-2 col-sm-12 col-12 text-center text-md-left">
 					<?php
-					$post_object = get_field('players_favourites_2'.$player_lang, 'options');
+					$post_object = get_field('players_favourites_2', 'options');
 					if( $post_object ): 
 					$post = $post_object;
 					setup_postdata( $post ); 
@@ -62,7 +53,7 @@
 				</div>
 				<div class="players-favorite d-inline col-md-2 col-sm-12 col-12 text-center text-md-left">
 					<?php
-					$post_object = get_field('players_favourites_3'.$player_lang, 'options');
+					$post_object = get_field('players_favourites_3', 'options');
 					if( $post_object ): 
 					$post = $post_object;
 					setup_postdata( $post ); 
@@ -84,7 +75,7 @@
 				</div>
 				<div class="players-favorite d-inline col-md-2 col-sm-12 col-12 text-center text-md-left">
 					<?php
-					$post_object = get_field('players_favourites_4'.$player_lang, 'options');
+					$post_object = get_field('players_favourites_4', 'options');
 					if( $post_object ): 
 					$post = $post_object;
 					setup_postdata( $post ); 
@@ -106,7 +97,7 @@
 				</div>
 				<div class="players-favorite d-inline col-md-2 col-sm-12 col-12 text-center text-md-left">
 					<?php
-					$post_object = get_field('players_favourites_5'.$player_lang, 'options');
+					$post_object = get_field('players_favourites_5', 'options');
 					if( $post_object ): 
 					$post = $post_object;
 					setup_postdata( $post ); 
@@ -186,7 +177,7 @@
 				<div class="logos-wrapp">
 				
 					<div>
-						<h3 class="footer_menu_title"><?php pll_e('Responsible Gambling'); ?></h3>
+						<h3 class="footer_menu_title"><?php echo __('Responsible Gambling'); ?></h3>
 					</div>
 					
 					<div>
@@ -205,8 +196,8 @@
 			
 			<div>
 
-				<?php pll_e('We do not share any presonally identifiable information. Please see Our Privacy Policy for more.'); ?> | 
-				<?php pll_e('All rights reserved 2017 Bingo.org'); ?>
+				<?php echo __('We do not share any presonally identifiable information. Please see Our Privacy Policy for more.'); ?> | 
+				<?php echo __('All rights reserved 2017 Bingo.org'); ?>
 			
 			</div>	
 				

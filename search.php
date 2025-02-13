@@ -4,13 +4,13 @@
 <div class="container">
 <div class="row">
 <div class="col-md-12 text-center text-md-left">
-<h1 class="text-white main_title"> <?php pll_e('Search for:'); ?> "<?php the_search_query(); ?>"</h1>
+<h1 class="text-white main_title"> <?php __('Search for:'); ?> "<?php the_search_query(); ?>"</h1>
 </div>
 </div>
 </div>
 </header> --> 
 <main id="main">
-	<h1> <?php pll_e('Search for:'); ?> "<?php the_search_query(); ?>"</h1>
+	<h1> <?php echo __('Search for:'); ?> "<?php the_search_query(); ?>"</h1>
 	<div class="widget blog-archive-category">
 		<?php
 		if ( have_posts() ) :

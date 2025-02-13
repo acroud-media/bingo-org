@@ -42,7 +42,7 @@ function vertical_review_card(){
 			</div>
 
 			<?php if(get_field('link')) { ?>
-			<a target="_blank" class="play-button" href="<?php echo get_permalink(get_field('link')); ?>"><?php echo get_field('button_title', $review_id) ?: pll__('Play Now'); ?></a>
+			<a target="_blank" class="play-button" href="<?php echo get_permalink(get_field('link')); ?>"><?php echo get_field('button_title', $review_id) ?: __('Play Now'); ?></a>
 			<?php } ?>
 
 		</div>
@@ -155,7 +155,7 @@ function review_payment_methods(){
 			<div class="home-widget ">
 				<div id="recent-posts-2" class="widget_recent_entries ">   
 					<div class="widget-title">
-						<?php pll_e('Payment Options'); ?>
+						<?php echo __('Payment Options'); ?>
 					</div>    
 					<div class="payment-info">
 						<?php echo get_field('payment_options_text'); ?>
@@ -196,7 +196,7 @@ function review_specifications(){wp_reset_postdata();
 			<div class="home-widget ">
 				<div id="specifications" class="widget_recent_entries ">   
 					<div class="widget-title">
-						<?php pll_e('Specifications'); ?>
+						<?php echo __('Specifications'); ?>
 					</div>    
 					<ul class="list-unstyled">
 						<?php
@@ -236,7 +236,7 @@ function review_pros_cons(){
 		<div class="home-widget ">
 			<div id="recent-posts-2" class="widget_recent_entries ">   
 				<div class="widget-title">
-					<?php pll_e('Pros and cons'); ?>
+					<?php echo __('Pros and cons'); ?>
 				</div>    
 				<ul class="list-unstyled">
 					<?php

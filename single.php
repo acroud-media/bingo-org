@@ -1,8 +1,7 @@
 <?php
 
-$player_lang = pll_current_language( 'slug' );
 $country = getenv('HTTP_GEOIP_COUNTRY_CODE');
-if ( $country == "CH" && $player_lang == "it" ) {
+if ( $country == "CH" ) {
 	wp_redirect(home_url());
 	exit();
 }
