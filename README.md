@@ -1,1 +1,1 @@
-# bingo-org test
+# bingo-org
