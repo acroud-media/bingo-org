@@ -1,0 +1,110 @@
+{
+    "key": "group_5bc5d47814af5br",
+    "title": "Bingo Theme Options - BR",
+    "fields": [
+        {
+            "key": "field_5bc5d49663144br",
+            "label": "scriptsbr",
+            "name": "scriptsbr",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Use With Caution",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5bc7819040802br",
+            "label": "404 error page linksbr",
+            "name": "404_error_page_linksbr",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Row",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_5bc781ae40803br",
+                    "label": "Title of The Pagebr",
+                    "name": "title_of_the_pagebr",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "parent_repeater": "field_5bc7819040802br"
+                },
+                {
+                    "key": "field_5bc781cf40804br",
+                    "label": "Link to The Pagebr",
+                    "name": "link_to_the_pagebr",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "parent_repeater": "field_5bc7819040802br"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "bingo_options_page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Option Page",
+    "show_in_rest": 0,
+    "modified": 1723856896
+}

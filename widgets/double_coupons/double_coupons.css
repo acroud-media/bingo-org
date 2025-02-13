@@ -1,0 +1,12 @@
+  
+.widget_double_coupons_id_name{padding:10px 5px;}
+
+.widget_double_coupons_id_name .vertical-card{margin-bottom:10px;}
+.widget_double_coupons_id_name .vertical-card:last-child{margin-bottom:0px;}
+.widget_double_coupons_id_name div .panel-pricing{color:#3c003a;    background: linear-gradient(to top, rgba(250,83,2,1), rgba(248,35,53,1));}
+.widget_double_coupons_id_name div:nth-child(even) .panel-pricing{  color:#FFF;  background: linear-gradient(to top, rgb(93, 23, 98), rgb(56, 0, 60));}
+.widget_double_coupons_id_name div:nth-child(odd) .panel-pricing .bonus_money{color:#FFF;}
+.widget_double_coupons_id_name .panel-pricing .panel-footer{padding:5px;max-width: 350px;margin:0 auto;}
+.widget_double_coupons_id_name .top-list-play{padding:4px 7px;}
+.right-sidebar .widget_double_coupons_id_name .element-size{padding:0;}
+.widget_double_coupons_id_name div:nth-child(even) small a{color:#FFF;}

@@ -1,0 +1,10 @@
+.fullwidth-widget .widget_header_block_id_name{border:0;}
+.single .business-header{    margin-bottom: -60px;
+    margin-top: 30px;
+    min-height: 100px;
+    padding-bottom: 20px;}
+.single .business-header h1{margin:80px 0;}
+.business-header {padding-bottom:50px;width: 100%;float: left;min-height: 200px;background: #38003c url('top_section_background.webp') top center no-repeat scroll;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;}
+.fullwidth-widget .business-header{padding-bottom: 90px;margin-bottom: -70px;}
+.business-header h1{margin:50px 0;}
+.business-header .card {height: 100%;}

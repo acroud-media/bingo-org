@@ -1,0 +1,1571 @@
+{
+    "key": "group_663ab7cfc641b",
+    "title": "Horizontal Top Lists Global",
+    "fields": [
+        {
+            "key": "field_66269166c2396",
+            "label": "Top List 3 <img  src=\"\/wp-content\/plugins\/polylang-pro\/vendor\/wpsyntex\/polylang\/flags\/us.png\">",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_66bea9a7aab4a",
+            "label": "Best Bingo Online Rooms",
+            "name": "horizontal_top_list_id_name-3",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Shortcode: [toplist id=\"horizontal_top_list_id_name-3\"]",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Review",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66bea9a7aab4c",
+                    "label": "Horizontal Top List Section Clone",
+                    "name": "horizontal_top_list_section_clone",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66be376770101",
+                        "field_66be376770102",
+                        "field_66be376770103",
+                        "field_66be376770104",
+                        "field_66be376770105",
+                        "field_66be376770106",
+                        "field_66be376770107",
+                        "field_66be376770108",
+                        "field_66be376870109",
+                        "field_66be37687010a",
+                        "field_66be37687010b",
+                        "field_66be37687010c",
+                        "field_66be37687010d"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_66bea9a7aab4a"
+                }
+            ]
+        },
+        {
+            "key": "field_6650a848f1dbb",
+            "label": "Bottom Button Title 3",
+            "name": "bbt_horizontal_top_list_id_name-3",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6650a856f1dbc",
+            "label": "Bottom Button Title Link 3",
+            "name": "bbtlink_horizontal_top_list_id_name-3",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_663cd4d961b8e",
+            "label": "Top List 4 <img  src=\"\/wp-content\/plugins\/polylang-pro\/vendor\/wpsyntex\/polylang\/flags\/us.png\">",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_66bea846ba0de",
+            "label": "Best US Bingo Sites",
+            "name": "horizontal_top_list_id_name-4",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Shortcode: [toplist id=\"horizontal_top_list_id_name-4\"]",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Review",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66bea846ba0e0",
+                    "label": "Horizontal Top List Section Clone",
+                    "name": "horizontal_top_list_section_clone",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66be376770101",
+                        "field_66be376770102",
+                        "field_66be376770103",
+                        "field_66be376770104",
+                        "field_66be376770105",
+                        "field_66be376770106",
+                        "field_66be376770107",
+                        "field_66be376770108",
+                        "field_66be376870109",
+                        "field_66be37687010a",
+                        "field_66be37687010b",
+                        "field_66be37687010c",
+                        "field_66be37687010d"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_66bea846ba0de"
+                }
+            ]
+        },
+        {
+            "key": "field_6650a81560890",
+            "label": "Bottom Button Title 4",
+            "name": "bbt_horizontal_top_list_id_name-4",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6650a82960891",
+            "label": "Bottom Button Title Link 4",
+            "name": "bbtlink_horizontal_top_list_id_name-4",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6626922a67760",
+            "label": "Top List 5 <img  src=\"\/wp-content\/plugins\/polylang-pro\/vendor\/wpsyntex\/polylang\/flags\/us.png\">",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_66284970a66c8",
+            "label": "Best UK BIngo Sites",
+            "name": "horizontal_top_list_id_name-5",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Shortcode: [toplist id=\"horizontal_top_list_id_name-5\"]",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Review",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66be3bed22d7e",
+                    "label": "Horizontal Top List Section Clone",
+                    "name": "horizontal_top_list_section_clone",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66be376770101",
+                        "field_66be376770102",
+                        "field_66be376770103",
+                        "field_66be376770104",
+                        "field_66be376770105",
+                        "field_66be376770106",
+                        "field_66be376770107",
+                        "field_66be376770108",
+                        "field_66be376870109",
+                        "field_66be37687010a",
+                        "field_66be37687010c",
+                        "field_66be37687010d"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_66284970a66c8"
+                }
+            ]
+        },
+        {
+            "key": "field_6650a7f06088e",
+            "label": "Bottom Button Title 5",
+            "name": "bbt_horizontal_top_list_id_name-5",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6650a8016088f",
+            "label": "Bottom Button Title Link 5",
+            "name": "bbtlink_horizontal_top_list_id_name-5",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_663cd51a61ba3",
+            "label": "Top List 6 <img  src=\"\/wp-content\/plugins\/polylang-pro\/vendor\/wpsyntex\/polylang\/flags\/us.png\">",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_66beb24b94ac8",
+            "label": "Shortcode: [toplist id=\"horizontal_top_list_id_name-6\"]",
+            "name": "horizontal_top_list_id_name-6",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Review",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66beb24c94aca",
+                    "label": "Horizontal Top List Section Clone",
+                    "name": "horizontal_top_list_section_clone",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66be376770101",
+                        "field_66be376770102",
+                        "field_66be376770103",
+                        "field_66be376770104",
+                        "field_66be376770105",
+                        "field_66be376770106",
+                        "field_66be376770107",
+                        "field_66be376770108",
+                        "field_66be376870109",
+                        "field_66be37687010a",
+                        "field_66be37687010b",
+                        "field_66be37687010c",
+                        "field_66be37687010d"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_66beb24b94ac8"
+                }
+            ]
+        },
+        {
+            "key": "field_6650a78bf34b1",
+            "label": "Bottom Button Title 6",
+            "name": "bbt_horizontal_top_list_id_name-6",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6650a795f34b2",
+            "label": "Bottom Button Title Link 6",
+            "name": "bbtlink_horizontal_top_list_id_name-6",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_662bc72b13847",
+            "label": "Top List 7 <img  src=\"\/wp-content\/plugins\/polylang-pro\/vendor\/wpsyntex\/polylang\/flags\/it.png\">",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_66beb2df94acb",
+            "label": "Shortcode: [toplist id=\"horizontal_top_list_id_name-7\"]",
+            "name": "horizontal_top_list_id_name-7",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Review",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66beb2df94acd",
+                    "label": "Horizontal Top List Section Clone",
+                    "name": "horizontal_top_list_section_clone",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66be376770101",
+                        "field_66be376770102",
+                        "field_66be376770103",
+                        "field_66be376770104",
+                        "field_66be376770105",
+                        "field_66be376770106",
+                        "field_66be376770107",
+                        "field_66be376770108",
+                        "field_66be376870109",
+                        "field_66be37687010a",
+                        "field_66be37687010b",
+                        "field_66be37687010c",
+                        "field_66be37687010d"
+                    ],
+                    "display": "seamless",
+                    "layout": "",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_66beb2df94acb"
+                }
+            ]
+        },
+        {
+            "key": "field_6650a754f34af",
+            "label": "Bottom Button Title 7",
+            "name": "bbt_horizontal_top_list_id_name-7",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6650a774f34b0",
+            "label": "Bottom Button Title Link 7",
+            "name": "bbtlink_horizontal_top_list_id_name-7",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_663ab6ad98495",
+            "label": "Top List 8 <img  src=\"\/wp-content\/plugins\/polylang-pro\/vendor\/wpsyntex\/polylang\/flags\/br.png\">",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_66bec40dd9cb0",
+            "label": "Shortcode: [toplist id=\"horizontal_top_list_id_name-8\"]",
+            "name": "horizontal_top_list_id_name-8",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Review",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66bec40dd9cb2",
+                    "label": "Horizontal Top List Section Clone",
+                    "name": "horizontal_top_list_section_clone",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66be376770101",
+                        "field_66be376770102",
+                        "field_66be376770103",
+                        "field_66be376770104",
+                        "field_66be376770105",
+                        "field_66be376770106",
+                        "field_66be376770107",
+                        "field_66be376770108",
+                        "field_66be376870109",
+                        "field_66be37687010a",
+                        "field_66be37687010b",
+                        "field_66be37687010c",
+                        "field_66be37687010d"
+                    ],
+                    "display": "seamless",
+                    "layout": "",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_66bec40dd9cb0"
+                }
+            ]
+        },
+        {
+            "key": "field_665093ca61627",
+            "label": "Bottom Button Title 8",
+            "name": "bbt_horizontal_top_list_id_name-8",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6650941161628",
+            "label": "Bottom Button Title Link 8",
+            "name": "bbtlink_horizontal_top_list_id_name-8",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_663ab707984aa",
+            "label": "Top List 9 <img  src=\"\/wp-content\/plugins\/polylang-pro\/vendor\/wpsyntex\/polylang\/flags\/br.png\">",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_66bec430d9cb3",
+            "label": "Shortcode: [toplist id=\"horizontal_top_list_id_name-9\"]",
+            "name": "horizontal_top_list_id_name-9",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Review",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66bec430d9cb5",
+                    "label": "Horizontal Top List Section Clone",
+                    "name": "horizontal_top_list_section_clone",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66be376770101",
+                        "field_66be376770102",
+                        "field_66be376770103",
+                        "field_66be376770104",
+                        "field_66be376770105",
+                        "field_66be376770106",
+                        "field_66be376770107",
+                        "field_66be376770108",
+                        "field_66be376870109",
+                        "field_66be37687010a",
+                        "field_66be37687010b",
+                        "field_66be37687010c",
+                        "field_66be37687010d"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_66bec430d9cb3"
+                }
+            ]
+        },
+        {
+            "key": "field_6650a876332de",
+            "label": "Bottom Button Title 9",
+            "name": "bbt_horizontal_top_list_id_name-9",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6650a885332df",
+            "label": "Bottom Button Title Link 9",
+            "name": "bbtlink_horizontal_top_list_id_name-9",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_662b9b0564b41",
+            "label": "Top List 10 <img  src=\"\/wp-content\/plugins\/polylang-pro\/vendor\/wpsyntex\/polylang\/flags\/br.png\">",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_66bec5077ca4d",
+            "label": "Mejores Bingo Online",
+            "name": "horizontal_top_list_id_name-10",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Shortcode: [toplist id=\"horizontal_top_list_id_name-10\"]",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Review",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66bec5077ca4f",
+                    "label": "Horizontal Top List Section Clone",
+                    "name": "horizontal_top_list_section_clone",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66be376770101",
+                        "field_66be376770102",
+                        "field_66be376770103",
+                        "field_66be376770104",
+                        "field_66be376770105",
+                        "field_66be376770106",
+                        "field_66be376770107",
+                        "field_66be376770108",
+                        "field_66be376870109",
+                        "field_66be37687010a",
+                        "field_66be37687010b",
+                        "field_66be37687010c",
+                        "field_66be37687010d"
+                    ],
+                    "display": "seamless",
+                    "layout": "",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_66bec5077ca4d"
+                }
+            ]
+        },
+        {
+            "key": "field_6650a899332e0",
+            "label": "Bottom Button Title 10",
+            "name": "bbt_horizontal_top_list_id_name-10",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6650a8a9332e1",
+            "label": "Bottom Button Title Link 10",
+            "name": "bbtlink_horizontal_top_list_id_name-10",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_663cd8ac7041f",
+            "label": "Top List 12 <img  src=\"\/wp-content\/plugins\/polylang-pro\/vendor\/wpsyntex\/polylang\/flags\/us.png\">",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_66bec54d7ca50",
+            "label": "Casino Toplist",
+            "name": "horizontal_top_list_id_name-12",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Shortcode: [toplist id=\"horizontal_top_list_id_name-12\"]",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Review",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66bec54d7ca52",
+                    "label": "Horizontal Top List Section Clone",
+                    "name": "horizontal_top_list_section_clone",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66be376770101",
+                        "field_66be376770102",
+                        "field_66be376770103",
+                        "field_66be376770104",
+                        "field_66be376770105",
+                        "field_66be376770106",
+                        "field_66be376770107",
+                        "field_66be376770108",
+                        "field_66be376870109",
+                        "field_66be37687010a",
+                        "field_66be37687010b",
+                        "field_66be37687010c",
+                        "field_66be37687010d"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_66bec54d7ca50"
+                }
+            ]
+        },
+        {
+            "key": "field_6650a8bc332e2",
+            "label": "Bottom Button Title 12",
+            "name": "bbt_horizontal_top_list_id_name-12",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6650a8cb332e3",
+            "label": "Bottom Button Title Link 12",
+            "name": "bbtlink_horizontal_top_list_id_name-12",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_66284f4355e5a",
+            "label": "Top List 16 <img  src=\"\/wp-content\/plugins\/polylang-pro\/vendor\/wpsyntex\/polylang\/flags\/es.png\">",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_66beb7120accb",
+            "label": "Shortcode: [toplist id=\"horizontal_top_list_id_name-16\"]",
+            "name": "horizontal_top_list_id_name-16",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Review",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66beb7130accd",
+                    "label": "Horizontal Top List Section Clone",
+                    "name": "horizontal_top_list_section_clone",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66be376770101",
+                        "field_66be376770102",
+                        "field_66be376770103",
+                        "field_66be376770104",
+                        "field_66be376770105",
+                        "field_66be376770106",
+                        "field_66be376770107",
+                        "field_66be376770108",
+                        "field_66be376870109",
+                        "field_66be37687010a",
+                        "field_66be37687010b",
+                        "field_66be37687010c",
+                        "field_66be37687010d"
+                    ],
+                    "display": "seamless",
+                    "layout": "",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_66beb7120accb"
+                }
+            ]
+        },
+        {
+            "key": "field_6650aa03eaed1",
+            "label": "Bottom Button Title 16",
+            "name": "bbt_horizontal_top_list_id_name-16",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6650aa02eaed0",
+            "label": "Bottom Button Title Link 16",
+            "name": "bbtlink_horizontal_top_list_id_name-16",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_663ab765984bf",
+            "label": "Top List 17 <img  src=\"\/wp-content\/plugins\/polylang-pro\/vendor\/wpsyntex\/polylang\/flags\/es.png\">",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_66bec66a8a62d",
+            "label": "Shortcode: [toplist id=\"horizontal_top_list_id_name-17\"]",
+            "name": "horizontal_top_list_id_name-17",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Review",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66bec66a8a62f",
+                    "label": "Horizontal Top List Section Clone",
+                    "name": "horizontal_top_list_section_clone",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66be376770101",
+                        "field_66be376770102",
+                        "field_66be376770103",
+                        "field_66be376770104",
+                        "field_66be376770105",
+                        "field_66be376770106",
+                        "field_66be376770107",
+                        "field_66be376770108",
+                        "field_66be376870109",
+                        "field_66be37687010a",
+                        "field_66be37687010b",
+                        "field_66be37687010c",
+                        "field_66be37687010d"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_66bec66a8a62d"
+                }
+            ]
+        },
+        {
+            "key": "field_6650aa36eaed3",
+            "label": "Bottom Button Title 17",
+            "name": "bbt_horizontal_top_list_id_name-17",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6650aa27eaed2",
+            "label": "Bottom Button Title Link 17",
+            "name": "bbtlink_horizontal_top_list_id_name-17",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_66284f7955e7f",
+            "label": "Top List 18 <img  src=\"\/wp-content\/plugins\/polylang-pro\/vendor\/wpsyntex\/polylang\/flags\/it.png\">",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_66beb79f0acd1",
+            "label": "Toplist IT",
+            "name": "horizontal_top_list_id_name-18",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Shortcode: [toplist id=\"horizontal_top_list_id_name-18\"]",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Review",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66beb79f0acd3",
+                    "label": "Horizontal Top List Section Clone",
+                    "name": "horizontal_top_list_section_clone",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66be376770101",
+                        "field_66be376770102",
+                        "field_66be376770103",
+                        "field_66be376770104",
+                        "field_66be376770105",
+                        "field_66be376770106",
+                        "field_66be376770107",
+                        "field_66be376770108",
+                        "field_66be376870109",
+                        "field_66be37687010a",
+                        "field_66be37687010b",
+                        "field_66be37687010c",
+                        "field_66be37687010d"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_66beb79f0acd1"
+                }
+            ]
+        },
+        {
+            "key": "field_6650aa51eaed5",
+            "label": "Bottom Button Title 18",
+            "name": "bbt_horizontal_top_list_id_name-18",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6650aa46eaed4",
+            "label": "Bottom Button Title Link 18",
+            "name": "bbtlink_horizontal_top_list_id_name-18",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_66284f9155e80",
+            "label": "Top List 19 <img  src=\"\/wp-content\/plugins\/polylang-pro\/vendor\/wpsyntex\/polylang\/flags\/es.png\">",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_66beb8680acd4",
+            "label": "Cómo Ganar en el Bingo ES",
+            "name": "horizontal_top_list_id_name-19",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Shortcode: [toplist id=\"horizontal_top_list_id_name-19\"]",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Review",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66beb8690acd6",
+                    "label": "Horizontal Top List Section Clone",
+                    "name": "horizontal_top_list_section_clone",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66be376770101",
+                        "field_66be376770102",
+                        "field_66be376770103",
+                        "field_66be376770104",
+                        "field_66be376770105",
+                        "field_66be376770106",
+                        "field_66be376770107",
+                        "field_66be376770108",
+                        "field_66be376870109",
+                        "field_66be37687010a",
+                        "field_66be37687010b",
+                        "field_66be37687010c",
+                        "field_66be37687010d"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_66beb8680acd4"
+                }
+            ]
+        },
+        {
+            "key": "field_6650aa6eeaed7",
+            "label": "Bottom Button Title 19",
+            "name": "bbt_horizontal_top_list_id_name-19",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6650aa5ceaed6",
+            "label": "Bottom Button Title Link 19",
+            "name": "bbtlink_horizontal_top_list_id_name-19",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-horizontal-top-lists"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Option Page",
+    "show_in_rest": 0,
+    "modified": 1723856361
+}

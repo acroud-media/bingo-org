@@ -1,0 +1,55 @@
+.card {
+  border: 0;
+  margin: 0 auto;
+}
+.card .carousel-item {
+
+
+}
+.card .carousel-caption {
+    padding:20px 0;
+  position: relative;
+  width: 100%;
+  bottom:0;
+  right: 0;
+  left: 0;
+  color: #3d3d3d;
+  text-align: left;
+}
+small.d-block.smallest.mute.block.text-danger.pb-4{
+  border-bottom:1px solid #f3f3f3;
+}
+.card .carousel-caption h3 {
+  color: #3d3d3d;
+}
+.card .carousel-caption p {
+  line-height: 30px;
+}
+.card .carousel-caption .col-sm-3 {
+  display: flex;
+  align-items: center;
+}
+.card .carousel-caption .col-sm-9 {
+  text-align: left;
+}
+
+.home-widget .carousel-control-next{margin-right: -150px;} 
+.home-widget .carousel-control-prev{margin-left: -150px;}
+.home-widget .carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233c003a' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.home-widget .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233c003a' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.home-widget .carousel-control-next-icon, .home-widget .carousel-control-prev-icon{ height: 50px;   width: 50px;}
+
+.home-widget .carousel-indicators{position: relative;}
+.home-widget .carousel-indicators .active{    border: 4px solid #3c003a;
+    background: #FFF;}
+.home-widget .carousel-indicators li{margin:0 5px;height:13px;width:13px;max-width:13px;border-radius:20px;background: #3c003a;padding:0;}
+
+  @media screen and (max-width: 1500px){
+.home-widget .carousel-control-next{display:none;}
+.home-widget .carousel-control-prev{display:none;}
+}

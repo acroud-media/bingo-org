@@ -1,0 +1,713 @@
+{
+    "key": "group_665741cae6aaa",
+    "title": "Vertical Top Lists Gobal",
+    "fields": [
+        {
+            "key": "field_664fee9d60b9c",
+            "label": "Top List 1 <img  src=\"\/wp-content\/plugins\/polylang-pro\/vendor\/wpsyntex\/polylang\/flags\/us.png\">",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_66c00a62174bc",
+            "label": "Shortcode: [toplist id=\"vertical_top_list_id_name-1\"]",
+            "name": "vertical_top_list_id_name-1",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_66c00a62174be",
+                    "label": "Vertical Top List Section Clone",
+                    "name": "vertical_top_list_section_clone",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66bff8810bb97",
+                        "field_66bff8810bb98",
+                        "field_66bff8810bb99",
+                        "field_66bff8810bb9a",
+                        "field_66bff8810bb9b",
+                        "field_66bff8810bb9d",
+                        "field_66bff8810bb9e",
+                        "field_66bffa250de5b",
+                        "field_66bff8810bba1",
+                        "field_66bff8810bba2",
+                        "field_66bffa590de5e",
+                        "field_66bff8810bba5",
+                        "field_66bff8810bba6",
+                        "field_66bffb140de61"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                }
+            ]
+        },
+        {
+            "key": "field_6650abf3cb585",
+            "label": "Horizontal Cards",
+            "name": "hmr_vertical_top_list_id_name-1",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Row",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66bfe856cc070",
+                    "label": "Horizontal Top Lists Section Clone",
+                    "name": "horizontal_top_lists_section_clone",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66be376770101",
+                        "field_66be376770102",
+                        "field_66be376770103",
+                        "field_66be376770104",
+                        "field_66be376770105",
+                        "field_66be376770106",
+                        "field_66be376770107",
+                        "field_66be376770108",
+                        "field_66be376870109",
+                        "field_66be37687010a",
+                        "field_66be37687010b",
+                        "field_66be37687010c",
+                        "field_66be37687010d"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_6650abf3cb585"
+                }
+            ]
+        },
+        {
+            "key": "field_6650b7d62bc09",
+            "label": "Bottom Button Title",
+            "name": "bbt_vertical_top_list_id_name-1",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6650b7fa2bc0a",
+            "label": "Bottom Button Title Link",
+            "name": "bbtlink_vertical_top_list_id_name-1",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_664feef460b9d",
+            "label": "Top List 2 <img  src=\"\/wp-content\/plugins\/polylang-pro\/vendor\/wpsyntex\/polylang\/flags\/br.png\">",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_665736bc801b7",
+            "label": "Shortcode: [toplist id=\"vertical_top_list_id_name-2\"]",
+            "name": "vertical_top_list_id_name-2",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "sub_fields": [
+                {
+                    "key": "field_66bfee4a5fc54",
+                    "label": "Vertical Top List Section Clone 2",
+                    "name": "vertical_top_list_section_clone_2",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66bff8810bb97",
+                        "field_66bff8810bb98",
+                        "field_66bff8810bb99",
+                        "field_66bff8810bb9a",
+                        "field_66bff8810bb9b",
+                        "field_66bff8810bb9d",
+                        "field_66bff8810bb9e",
+                        "field_66bffa250de5b",
+                        "field_66bff8810bba1",
+                        "field_66bff8810bba2",
+                        "field_66bffa590de5e",
+                        "field_66bff8810bba5",
+                        "field_66bff8810bba6",
+                        "field_66bffb140de61"
+                    ],
+                    "display": "seamless",
+                    "layout": "",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                }
+            ],
+            "layout": "block"
+        },
+        {
+            "key": "field_66bfef6f5fc55",
+            "label": "Horizontal Cards Tab 2",
+            "name": "hmr_vertical_top_list_id_name-2",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Row",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66bfef6f5fc57",
+                    "label": "Horizontal Top Lists Section Clone 2",
+                    "name": "horizontal_top_lists_section_clone_2",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66be376770101",
+                        "field_66be376770102",
+                        "field_66be376770103",
+                        "field_66be376770104",
+                        "field_66be376770105",
+                        "field_66be376770106",
+                        "field_66be376770107",
+                        "field_66be376770108",
+                        "field_66be376870109",
+                        "field_66be37687010a",
+                        "field_66be37687010b",
+                        "field_66be37687010c",
+                        "field_66be37687010d"
+                    ],
+                    "display": "seamless",
+                    "layout": "",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_66bfef6f5fc55"
+                }
+            ]
+        },
+        {
+            "key": "field_6650b8f62bc0b",
+            "label": "Bottom Button Title Tab 2",
+            "name": "bbt_vertical_top_list_id_name-2",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6650b90e2bc0c",
+            "label": "Bottom Button Title Link Tab 2",
+            "name": "bbtlink_vertical_top_list_id_name-2",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_664ff07a8f12a",
+            "label": "Top List 3 <img  src=\"\/wp-content\/plugins\/polylang-pro\/vendor\/wpsyntex\/polylang\/flags\/it.png\">",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_66c00b06174bf",
+            "label": "Shortcode: [toplist id=\"vertical_top_list_id_name-3\"]",
+            "name": "vertical_top_list_id_name-3",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_66c00b06174c1",
+                    "label": "Vertical Top List Section Clone 3",
+                    "name": "vertical_top_list_section_clone_3",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66bff8810bb97",
+                        "field_66bff8810bb98",
+                        "field_66bff8810bb99",
+                        "field_66bff8810bb9a",
+                        "field_66bff8810bb9b",
+                        "field_66bff8810bb9d",
+                        "field_66bff8810bb9e",
+                        "field_66bffa250de5b",
+                        "field_66bff8810bba1",
+                        "field_66bff8810bba2",
+                        "field_66bffa590de5e",
+                        "field_66bff8810bba5",
+                        "field_66bff8810bba6",
+                        "field_66bffb140de61"
+                    ],
+                    "display": "seamless",
+                    "layout": "",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                }
+            ]
+        },
+        {
+            "key": "field_66c00b35174c2",
+            "label": "Horizontal Cards Tab 3",
+            "name": "hmr_vertical_top_list_id_name-3",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Row",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66c00b35174c4",
+                    "label": "Horizontal Top Lists Section Clone 3",
+                    "name": "horizontal_top_lists_section_clone_3",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66be376770101",
+                        "field_66be376770102",
+                        "field_66be376770103",
+                        "field_66be376770104",
+                        "field_66be376770105",
+                        "field_66be376770106",
+                        "field_66be376770107",
+                        "field_66be376770108",
+                        "field_66be376870109",
+                        "field_66be37687010a",
+                        "field_66be37687010b",
+                        "field_66be37687010c",
+                        "field_66be37687010d"
+                    ],
+                    "display": "seamless",
+                    "layout": "",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_66c00b35174c2"
+                }
+            ]
+        },
+        {
+            "key": "field_6650b93ac2c37",
+            "label": "Bottom Button Title Tab 3",
+            "name": "bbt_vertical_top_list_id_name-3",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6650b94bc2c38",
+            "label": "Bottom Button Title Link Tab 3",
+            "name": "bbtlink_vertical_top_list_id_name-3",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_664ff0d08f171",
+            "label": "Top List 4 <img  src=\"\/wp-content\/plugins\/polylang-pro\/vendor\/wpsyntex\/polylang\/flags\/es.png\">",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_66c00b8d174c5",
+            "label": "Shortcode: [toplist id=\"vertical_top_list_id_name-4\"]",
+            "name": "vertical_top_list_id_name-4",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_66c00b8d174c7",
+                    "label": "Vertical Top List Section Clone 4",
+                    "name": "vertical_top_list_section_clone_4",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66bff8810bb97",
+                        "field_66bff8810bb98",
+                        "field_66bff8810bb99",
+                        "field_66bff8810bb9a",
+                        "field_66bff8810bb9b",
+                        "field_66bff8810bb9d",
+                        "field_66bff8810bb9e",
+                        "field_66bffa250de5b",
+                        "field_66bff8810bba1",
+                        "field_66bff8810bba2",
+                        "field_66bffa590de5e",
+                        "field_66bff8810bba5",
+                        "field_66bff8810bba6",
+                        "field_66bffb140de61"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                }
+            ]
+        },
+        {
+            "key": "field_66c00bc6174c8",
+            "label": "Horizontal Cards Tab 4",
+            "name": "hmr_vertical_top_list_id_name-4",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Row",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66c00bc6174ca",
+                    "label": "Horizontal Top Lists Section Clone 4",
+                    "name": "horizontal_top_lists_section_clone_4",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66be376770101",
+                        "field_66be376770102",
+                        "field_66be376770103",
+                        "field_66be376770104",
+                        "field_66be376770105",
+                        "field_66be376770106",
+                        "field_66be376770107",
+                        "field_66be376770108",
+                        "field_66be376870109",
+                        "field_66be37687010a",
+                        "field_66be37687010b",
+                        "field_66be37687010c",
+                        "field_66be37687010d"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_66c00bc6174c8"
+                }
+            ]
+        },
+        {
+            "key": "field_6650b982c2c39",
+            "label": "Bottom Button Title Tab 4",
+            "name": "bbt_vertical_top_list_id_name-4",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6650b992c2c3a",
+            "label": "Bottom Button Title Link Tab 4",
+            "name": "bbtlink_vertical_top_list_id_name-4",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-vertical-top-lists"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Option Page",
+    "show_in_rest": 0,
+    "modified": 1723862025
+}

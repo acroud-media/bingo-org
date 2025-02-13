@@ -1,0 +1,13 @@
+.widget_hotizontal_top_list_id_name{padding:10px 20px;}
+.horizontal-list{border: 1px solid rgba(0,0,0,.125);background: #f3f3f3;padding: 20px 15px 5px 0;margin: 10px 0;}
+.horizontal-list-inside{background: #FFF;padding: 0 0 10px;}
+.horizontal-list .media.col-md-2{padding:0 20px;}
+.horizontal-list .read_review_link{margin-bottom:0;}
+.horizontal-list-content{width:calc(100% - 40px);margin:20px 20px 10px;border-bottom:1px solid #CCC;padding-bottom:20px;}
+.horizontal-top-list-buttons .active-top-list, .horizontal-top-list-buttons .focus, .horizontal-top-list-buttons .active {
+    text-transform: uppercase;
+    font-weight: 400;
+    margin:10px 0;
+    color: #fff;
+    background: linear-gradient(to top, rgba(250,83,2,1), rgba(248,35,53,1));
+}

@@ -1,0 +1,521 @@
+{
+    "key": "group_665afe93844b8",
+    "title": "Top List Casino Reviews",
+    "fields": [
+        {
+            "key": "field_655f81c112937",
+            "label": "List Type",
+            "name": "list_type",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "global_toplist": "Global Top List",
+                "custom": "Custom List"
+            },
+            "default_value": "global_toplist",
+            "return_format": "value",
+            "multiple": 0,
+            "translations": "copy_once",
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_655edf529756c",
+            "label": "List Style",
+            "name": "list_style",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Horizontal": "Horizontal",
+                "Vertical": "Vertical",
+                "Double Coupons": "Double Coupons"
+            },
+            "default_value": "Horizontal",
+            "return_format": "value",
+            "multiple": 0,
+            "translations": "copy_once",
+            "allow_null": 0,
+            "ui": 1,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_655f83bf12938",
+            "label": "Global Horizontal List",
+            "name": "global_horizontal_list",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_655f81c112937",
+                        "operator": "==",
+                        "value": "global_toplist"
+                    },
+                    {
+                        "field": "field_655edf529756c",
+                        "operator": "==",
+                        "value": "Horizontal"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "horizontal_top_list_id_name-3": "Top List 3",
+                "horizontal_top_list_id_name-4": "Top List 4",
+                "horizontal_top_list_id_name-5": "Top List 5",
+                "horizontal_top_list_id_name-6": "Top List 6",
+                "horizontal_top_list_id_name-7": "Top List 7",
+                "horizontal_top_list_id_name-8": "Top List 8",
+                "horizontal_top_list_id_name-9": "Top List 9",
+                "horizontal_top_list_id_name-10": "Top List 10",
+                "horizontal_top_list_id_name-12": "Top List 12",
+                "horizontal_top_list_id_name-16": "Top List 16",
+                "horizontal_top_list_id_name-17": "Top List 17",
+                "horizontal_top_list_id_name-18": "Top List 18",
+                "horizontal_top_list_id_name-19": "Top List 19"
+            },
+            "default_value": "horizontal_top_list_id_name-3",
+            "return_format": "value",
+            "multiple": 0,
+            "translations": "copy_once",
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_6658a57ec709c",
+            "label": "Global Vertical List",
+            "name": "global_vertical_list",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_655f81c112937",
+                        "operator": "==",
+                        "value": "global_toplist"
+                    },
+                    {
+                        "field": "field_655edf529756c",
+                        "operator": "==",
+                        "value": "Vertical"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "vertical_top_list_id_name-1": "Top List 1",
+                "vertical_top_list_id_name-2": "Top List 2",
+                "vertical_top_list_id_name-3": "Top List 3",
+                "vertical_top_list_id_name-4": "Top List 4"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "translations": "copy_once",
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_666a4ab981d21",
+            "label": "Global Double Coupons List",
+            "name": "global_double_coupons_list",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_655f81c112937",
+                        "operator": "==",
+                        "value": "global_toplist"
+                    },
+                    {
+                        "field": "field_655edf529756c",
+                        "operator": "==",
+                        "value": "Double Coupons"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "double_coupons_id_name-1": "Double Coupons List 1",
+                "double_coupons_id_name-2": "Double Coupons List 2",
+                "double_coupons_id_name-3": "Double Coupons List 3",
+                "double_coupons_id_name-4": "Double Coupons List 4"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "translations": "copy_once",
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_665afe661c151",
+            "label": "Vertical Top List",
+            "name": "vertical_top_list",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_655f81c112937",
+                        "operator": "==",
+                        "value": "custom"
+                    },
+                    {
+                        "field": "field_655edf529756c",
+                        "operator": "==",
+                        "value": "Vertical"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_66c00541a5c44",
+                    "label": "Vertical Top List Section Clone",
+                    "name": "vertical_top_list_section_clone",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66bff8810bb97",
+                        "field_66bff8810bb98",
+                        "field_66bff8810bb99",
+                        "field_66bff8810bb9a",
+                        "field_66bff8810bb9b",
+                        "field_66bff8810bb9d",
+                        "field_66bff8810bb9e",
+                        "field_66bffa250de5b",
+                        "field_66bff8810bba1",
+                        "field_66bff8810bba2",
+                        "field_66bffa590de5e",
+                        "field_66bff8810bba5",
+                        "field_66bff8810bba6",
+                        "field_66bffb140de61"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                }
+            ]
+        },
+        {
+            "key": "field_66589ad77b7b1",
+            "label": "Horizontal Top List",
+            "name": "horizontal_top_list",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_655f81c112937",
+                        "operator": "==",
+                        "value": "custom"
+                    },
+                    {
+                        "field": "field_655edf529756c",
+                        "operator": "!=",
+                        "value": "Double Coupons"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Row",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66c003eaa5c43",
+                    "label": "Horizontal Top List Section Clone",
+                    "name": "horizontal_top_list_section_clone",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66be376770101",
+                        "field_66be376770102",
+                        "field_66be376770103",
+                        "field_66be376770104",
+                        "field_66be376770105",
+                        "field_66be376770106",
+                        "field_66be376770107",
+                        "field_66be376770108",
+                        "field_66be376870109",
+                        "field_66be37687010a",
+                        "field_66be37687010b",
+                        "field_66be37687010c",
+                        "field_66be37687010d"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_66589ad77b7b1"
+                }
+            ]
+        },
+        {
+            "key": "field_666a4e93c965d",
+            "label": "Element size",
+            "name": "element_size_double_coupons",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_655f81c112937",
+                        "operator": "==",
+                        "value": "custom"
+                    },
+                    {
+                        "field": "field_655edf529756c",
+                        "operator": "==",
+                        "value": "Double Coupons"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "col-12": "100%",
+                "col-lg-8 col-12": "66%",
+                "col-lg-6 col-12": "50%",
+                "col-lg-4 col-12": "33%",
+                "col-lg-3 col-md-6 col-12": "25%",
+                "col-lg-2 col-md-6 col-12": "16.66%"
+            },
+            "default_value": "col-12",
+            "return_format": "value",
+            "translations": "copy_once",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_66be14d11784a",
+            "label": "Double Coupons List",
+            "name": "double_coupons_list",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_655f81c112937",
+                        "operator": "==",
+                        "value": "custom"
+                    },
+                    {
+                        "field": "field_655edf529756c",
+                        "operator": "==",
+                        "value": "Double Coupons"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Review",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_66be1f71d2f79",
+                    "label": "Horizontal Top List Fields Clone",
+                    "name": "horizontal_top_list_fields_clone",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_66be376770101",
+                        "field_66be376770102",
+                        "field_66be376770103",
+                        "field_66be376770104",
+                        "field_66be376770105",
+                        "field_66be376770106",
+                        "field_66be376770107",
+                        "field_66be376770108",
+                        "field_66be37687010a",
+                        "field_66be37687010b"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_66be14d11784a"
+                }
+            ]
+        },
+        {
+            "key": "field_66589b1e22e2f",
+            "label": "Bottom Button Title",
+            "name": "bottom_button_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_655edf529756c",
+                        "operator": "!=",
+                        "value": "Double Coupons"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_66589b2222e30",
+            "label": "Bottom Button Title Link",
+            "name": "bottom_button_title_link",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_655edf529756c",
+                        "operator": "!=",
+                        "value": "Double Coupons"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "translations": "translate",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/smg-reviews-list"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Gutenberg Block",
+    "show_in_rest": 0,
+    "modified": 1723860640
+}

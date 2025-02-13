@@ -1,0 +1,13 @@
+.widget_buttons_id_name{padding:5px 5px;}
+.bingo-buttons {
+    background-color:#CCC;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.bingo_by_numbers a{color:#FFF;}
+.bingo-buttons .bingo_by_numbers{color:#FFF;}
+.bingo-buttons a .bingo_by_numbers:hover{color:#38003c;}
+.widget_buttons_id_name div:nth-child(4n + 1) .bingo-buttons{background: #fa5103;}
+.widget_buttons_id_name div:nth-child(4n + 2) .bingo-buttons{background: #fa4314;}
+.widget_buttons_id_name div:nth-child(4n + 3) .bingo-buttons{background: #f93225;}
+.widget_buttons_id_name div:nth-child(4n + 4) .bingo-buttons{background: #f82434;}
