@@ -1,3 +1,8 @@
+<?php
+	$footer_compliance_text = get_field('footer_compliance_text', 'options');
+	$footer_compliance_banners = get_field('footer_compliance_banners', 'options');
+?>
+
 <footer class="footer-wrap">
 
 	<div class="players-favorites-footer flex-wrap row ml-0 mr-0 pl-0 pr-0">
@@ -171,23 +176,32 @@
 
 					));}else { echo '<span class="add-menu"></span>';} ?>
 			</div>
-
-			<div class="widget-wrap">
 				
-				<div class="logos-wrapp">
-				
-					<div>
-						<h3 class="footer_menu_title"><?php echo __('Responsible Gambling'); ?></h3>
+			<div class="logos-wrapp">
+				<?php if ($footer_compliance_text) :?>
+				<div class="footer-compliance">
+					<div class="footer-compliance__text">
+						<?php echo $footer_compliance_text; ?>
 					</div>
-					
-					<div>
-						<a href="https://about.gambleaware.org/" target="_blank">
-						<img src="/wp-content/uploads/2024/05/GambleAware.png" loading="lazy" alt="GambleAware" style="background: #fff;" width="100" height="24">
-						</a>
+					<?php if (is_array($footer_compliance_banners) && !empty($footer_compliance_banners)) :?>
+					<div class="footer-compliance__banners">
+						<?php foreach ($footer_compliance_banners as $banner) :?>
+						<div class="footer-compliance__banner">
+							<?php if ($banner['link']) :?>
+								<a class="footer-compliance__img" href="<?php echo $banner['link']; ?>" target="_blank">
+									<img src="<?php echo $banner['image']['url']?>" alt="<?php echo $banner['image']['title']?>">
+								</a>
+							<?php else: ?>
+								<div class="footer-compliance__img">
+									<img src="<?php echo $banner['image']['url']?>" alt="<?php echo $banner['image']['title']?>">
+								</div>
+							<?php endif; ?>
+						</div>
+						<?php endforeach;?>
 					</div>
-				
+					<?php endif; ?>
 				</div>
-				
+				<?php endif; ?>
 			</div>
 
 		</div>
